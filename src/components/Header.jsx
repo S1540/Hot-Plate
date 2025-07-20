@@ -112,7 +112,7 @@ function Header() {
         <div className="max-w-full w-full flex justify-between px-3 ">
           <input
             type="text"
-            placeholder="Search Your Dish"
+            placeholder="Search for dishes, water ... "
             className="max-w-3xl w-full border-b border-gray-500 hover:border-gray-700 py-2 outline-0"
           />
 
