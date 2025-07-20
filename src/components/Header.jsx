@@ -16,7 +16,7 @@ function Header() {
   return (
     <>
       <header className=" relative max-w-full w-full h-32 flex flex-col border-b border-gray-200/80 px-2">
-        <div className="w-full h-20 flex  justify-between border-b border-gray-200/80">
+        <div className=" fixed top-0 left-0 right-0 w-full h-20 z-50 bg-gray-100 flex  justify-between border-b border-gray-200/80">
           <img src={logo} alt="Hot-Plate" className="h-full  px-2 py-1" />
           <div className="max-w-md w-full hidden sm:flex justify-between items-center h-full px-2 py-1 text-gray-500">
             <a
@@ -109,11 +109,11 @@ function Header() {
           </div>
         </div>
 
-        <div className="max-w-full w-full flex justify-between px-3 ">
+        <div className="fixed top-20 left-0 right-0 bg-white z-50 max-w-full w-full flex justify-between px-3 ">
           <input
             type="text"
             placeholder="Search for dishes, water ... "
-            className="max-w-3xl w-full border-b border-gray-500 hover:border-gray-700 py-2 outline-0"
+            className="max-w-3xl w-full border-b border-gray-500 hover:border-gray-700 py-2 mb-1 outline-0"
           />
 
           <p className="shrink-0 py-2">Noida, 821103</p>
